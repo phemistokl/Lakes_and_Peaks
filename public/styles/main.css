@@ -1,0 +1,8 @@
+body {
+    background: url(../images/bg_home.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #757575;
+    font-family: 'Consolas', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
