@@ -6,3 +6,49 @@ body {
     font-family: 'Consolas', Arial, Helvetica, sans-serif;
     margin: 0;
 }
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #9dab49;
+  border: 2px solid #ffffff;
+  margin-bottom: 5px;
+  position: relative;
+  cursor: pointer;
+  float: left;
+}
+.circleInMap {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 2px solid #9dab49;
+  margin-bottom: 5px;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  color: #000000;
+}
+.title {
+  position: absolute;
+  width: 100px;
+  text-align: center;
+  right: 50px;
+  color: #000000;
+  font-weight: bold;
+}
+.menuItems {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  width: 50px;
+}
+.addPlace {
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: red;
+}

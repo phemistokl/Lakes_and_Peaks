@@ -5,17 +5,17 @@ export const addPlace = place => {
 		title: place.title,
 		description: place.description,
 		videolink: place.videolink,
-		coordX: place.coordX,
-		coordY: place.coordY,
-		phone: place.phone,
-		email: place.email
+		coordX: 300,
+		coordY: 300,
+		phone: "300-300",
+		email: "email"
 	};
 };
 
 export const updatePlace = (id, place) => {
 	return {
 		type: "UPDATE_PLACE",
-		id: Date.now(),
+		id,
 		title: place.title,
 		description: place.description,
 		videolink: place.videolink,
@@ -48,6 +48,6 @@ export const currentPlace = id => {
 
 export const toggleModal = () => {
 		return {
-    		type: 'TOGLLE_MODAL'
+    		type: 'TOGGLE_MODAL'
 		};
 };

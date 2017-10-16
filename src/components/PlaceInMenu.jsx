@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { currentPlace, toggleModal } from '../actions';
 
 @connect(undefined, { currentPlace, toggleModal })
-export default class Place extends Component {
+export default class PlaceInMenu extends Component {
     constructor(props) {
         super(props);
 
@@ -18,16 +18,11 @@ export default class Place extends Component {
 
     render() {
 
-          const { title, description, videolink, coordX, coordY, phone, email } = this.props;
-
-          const circleStyle = {
-            left: `${coordY}px`,
-            top: `${coordX}px`
-          }
+        const { title } = this.props;
 
           return (
-            <div className="circleInMap" style={circleStyle} onClick={this.currentPlace.bind(this)}>
-              <div>{title}</div>
+            <div className="circle" onClick={this.currentPlace.bind(this)}>
+              <div className="title">{title}</div>
             </div>
           );
     }

@@ -24,32 +24,32 @@ export default class Modal extends Component {
     }
 
     componentDidMount() {
-        $('#editCustomer').modal('show');
+        $('#editPlaces').modal('show');
     }
 
     closeModal() {
         // need to have component inside different this context
         let modalComponent = this;
-        $('#editCustomer').modal('hide');
+        $('#editPlaces').modal('hide');
         // Make sure bootstrap modal close finishes before
         // changing modal isOpen to false otherwise background gets stuck
-        $('#editCustomer').on('hidden.bs.modal', function () {
+        $('#editPlaces').on('hidden.bs.modal', function () {
           modalComponent.props.toggleModal();
         });
     }
 
-    // handleDelete() {
-    //     if (this.props.id && !this.props.newEntry) {
-    //       this.props.deleteCustomer(this.props.id);
-    //     }
-    //     this.closeModal();
-    // }
+    handleDelete() {
+        if (this.props.id && !this.props.newEntry) {
+          this.props.deletePlace(this.props.id);
+        }
+        this.closeModal();
+    }
 
     handleCreate() {
       const place = {
           title: this.state.title,
           description: this.state.description,
-          videolink: this.state.videolink
+          videolink: this.state.videolink,
       };
 
 
@@ -57,11 +57,10 @@ export default class Modal extends Component {
           this.props.updatePlace(this.props.id, place);
         }
         else {
-          this.props.savePlace(place);
+          this.props.addPlace(place);
         }
 
       this.closeModal();
-      this.props.loadPlaces();
     }
 
     handleTitleChange(e) {
@@ -110,7 +109,7 @@ export default class Modal extends Component {
                 {
                   !this.props.newEntry ?
                   <h4 className="modal-title">Edit Place</h4>
-                  : <h4 className="modal-title">Create CPlace</h4>
+                  : <h4 className="modal-title">Create Place</h4>
                 }
               </div>
               <div className="modal-body">
@@ -144,25 +143,13 @@ export default class Modal extends Component {
                 </div>
               </div>
               <div className="modal-footer">
-                <button
-                  type="button"
-                  className="btn btn-default mystyle"
-                  onClick={this.closeModal.bind(this)}
-                >
+                <button type="button" className="btn btn-default mystyle">
                     Cancel
                 </button>
-                <button
-                  onClick={this.handleCreate.bind(this)}
-                  type="button"
-                  className="btn btn-primary"
-                >
+                <button onClick={this.handleCreate.bind(this)} type="button" className="btn btn-primary">
                   Save changes
                 </button>
-                <button
-                  onClick={this.handleDelete.bind(this)}
-                  type="button"
-                  className="btn btn-danger bottom-left"
-                >
+                <button onClick={this.handleDelete.bind(this)} type="button" className="btn btn-danger bottom-left">
                   Delete
                 </button>
               </div>
@@ -174,10 +161,10 @@ export default class Modal extends Component {
 
 function mapStateToModalProps(state) {
   return {
-    id: state.places.place.id,
-    title: state.places.place.title,
-    description: state.places.place.description,
-    videolink: state.places.place.videolink,
+    id: state.places.current[0].id,
+    title: state.places.current[0].title,
+    description: state.places.current[0].description,
+    videolink: state.places.current[0].videolink,
     isOpen: state.modal.isOpen,
     newEntry: state.modal.newEntry
   };

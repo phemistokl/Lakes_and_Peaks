@@ -76,6 +76,7 @@ const InitialState = [
 function place(state = {}, action) {
 	switch (action.type) {
 		case 'ADD_PLACE': {
+			console.log("Add");
 			return {
 					id: action.id,
 					title: action.title,
@@ -89,10 +90,12 @@ function place(state = {}, action) {
 		}
 
 		case 'CURRENT_PLACE': {
+				console.log("Current");
         return state.id == action.id;
     }
 
 		case 'UPDATE_PLACE': {
+			console.log(action.id);
 			if (state.id == action.id) {
 				return {
 					id: action.id,
@@ -125,7 +128,7 @@ function places(state = { places: InitialState, current: [{id: ""}] }, action) {
 			return {
         ...state,
         places: [...state.places,
-					places(undefined, action)
+					place(undefined, action)
 				]
       }
 		}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import PlacesMenu from './PlacesMenu.jsx';
 import PlacesBox from './PlacesBox.jsx';
 
 export default class PlacesApp extends Component {
@@ -7,6 +8,7 @@ export default class PlacesApp extends Component {
         return (
               <div>
                   <PlacesBox />
+                  <PlacesMenu />
               </div>
         );
     }
