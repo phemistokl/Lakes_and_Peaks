@@ -85,7 +85,6 @@ export default class Modal extends Component {
     }
 
     render() {
-      console.log(this.props.title);
       if (!this.props.isOpen) {
         this.closeModal();
       }

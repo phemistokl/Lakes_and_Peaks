@@ -6,8 +6,8 @@ const InitialState = [
 		title: "Приэльбрусье",
 		description: "Lorem Ipsum - это текст, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.",
 		videolink: "https://www.youtube.com/watch?v=_Mursg7TZsE",
-		coordX: 250,
-		coordY: 280,
+		coordX: 0,
+		coordY: 0,
 		phone: "+79093444545",
 		email: "geg@gmail.com",
 	},
@@ -16,8 +16,8 @@ const InitialState = [
 		title: "Долина Нарзанов",
 		description: "Lorem Ipsum - это текст, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.",
 		videolink: "https://www.youtube.com/watch?v=_Mursg7TZsE",
-		coordX: 350,
-		coordY: 180,
+		coordX: 0,
+		coordY: 0,
 		phone: "+79093444545",
 		email: "geg@gmail.com",
 	},
@@ -26,8 +26,8 @@ const InitialState = [
 		title: "Домбай",
 		description: "Lorem Ipsum - это текст, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.",
 		videolink: "https://www.youtube.com/watch?v=_Mursg7TZsE",
-		coordX: 300,
-		coordY: 380,
+		coordX: 0,
+		coordY: 0,
 		phone: "+79093444545",
 		email: "geg@gmail.com",
 	},
@@ -36,8 +36,8 @@ const InitialState = [
 		title: "Фиагдон",
 		description: "Lorem Ipsum - это текст, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.",
 		videolink: "https://www.youtube.com/watch?v=_Mursg7TZsE",
-		coordX: 550,
-		coordY: 280,
+		coordX: 0,
+		coordY: 0,
 		phone: "+79093444545",
 		email: "geg@gmail.com",
 	},
@@ -46,8 +46,8 @@ const InitialState = [
 		title: "Голубые озера",
 		description: "Lorem Ipsum - это текст, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.",
 		videolink: "https://www.youtube.com/watch?v=_Mursg7TZsE",
-		coordX: 210,
-		coordY: 240,
+		coordX: 0,
+		coordY: 0,
 		phone: "+79093444545",
 		email: "geg@gmail.com",
 	},
@@ -56,8 +56,8 @@ const InitialState = [
 		title: "Атажукинский сад",
 		description: "Lorem Ipsum - это текст, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.",
 		videolink: "https://www.youtube.com/watch?v=_Mursg7TZsE",
-		coordX: 210,
-		coordY: 400,
+		coordX: 0,
+		coordY: 0,
 		phone: "+79093444545",
 		email: "geg@gmail.com",
 	},
@@ -66,8 +66,8 @@ const InitialState = [
 		title: "Место",
 		description: "Lorem Ipsum - это текст, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.",
 		videolink: "https://www.youtube.com/watch?v=_Mursg7TZsE",
-		coordX: 400,
-		coordY: 240,
+		coordX: 0,
+		coordY: 0,
 		phone: "+79093444545",
 		email: "geg@gmail.com",
 	},
@@ -76,7 +76,6 @@ const InitialState = [
 function place(state = {}, action) {
 	switch (action.type) {
 		case 'ADD_PLACE': {
-			console.log("Add");
 			return {
 					id: action.id,
 					title: action.title,
@@ -90,12 +89,10 @@ function place(state = {}, action) {
 		}
 
 		case 'CURRENT_PLACE': {
-				console.log("Current");
         return state.id == action.id;
     }
 
 		case 'UPDATE_PLACE': {
-			console.log(action.id);
 			if (state.id == action.id) {
 				return {
 					id: action.id,

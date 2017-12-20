@@ -5,8 +5,8 @@ export const addPlace = place => {
 		title: place.title,
 		description: place.description,
 		videolink: place.videolink,
-		coordX: 300,
-		coordY: 300,
+		coordX: 0,
+		coordY: 0,
 		phone: "300-300",
 		email: "email"
 	};
